@@ -1,0 +1,33 @@
+.launchCard {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.body {
+  width: inherit;
+  padding-left: 20px;
+}
+.img img {
+  width: 300px;
+}
+.missionDate {
+}
+@media only screen and (max-width: 800px) {
+  .launchCard {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    background-color: lightgrey;
+  }
+  .header {
+    display: inline;
+  }
+}

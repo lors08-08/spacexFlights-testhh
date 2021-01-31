@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+}
+.selector {
+  width: 400px;
+}
+.launchCite {
+  margin-left: 20px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: rgb(225 225 225);
+}
+.emptyList {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  filter: grayscale(90);
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    display: inline;
+  }
+  .launchCite {
+    margin-left: 0;
+  }
+}
